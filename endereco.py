@@ -31,8 +31,3 @@ class BuscaEndereco:
             dados['logradouro']
         ]
         return info
-
-
-cep = BuscaEndereco(11050231)
-localidade, uf, logradouro = cep.acesso_via_cep()
-print(localidade, uf, logradouro)
